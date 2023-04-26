@@ -1,3 +1,5 @@
+* [UrbanTech](https://mayanktandon12.github.io/UrbanTechWebpage/)
+
 # URBAN TECH 
 
 ### Purpose of the Project:
@@ -17,26 +19,3 @@
 git checkout $(git rev-list -n 1 --before "2023-04-10 16:30" master)
     * Evaluate the project using Android Studio on a “fresh” development computer (running Windows, with Java and all Android development tools installed and a Nexus 7 emulator running).
     * Select the emulator in Android Studio and select the “build” and “run” menu items to execute it on the emulator.
-* Downlaod the [Iteration3.apk](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/Iteration3.apk), install and run it.
-
-### Links to important Project Documentation:
-
-* [VISION STATEMENT](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/VISION.md)
-
-* [RETROSPECTIVE DOCUMENT](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/RETROSPECTIVE.md)
-
-* [ARCHITECTURE DESCRIPTION](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/ARCHITECTURE_DESCRIPTION.md)
-
-* [POST MORTEM](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/POST%20MORTEM.md)
-
-* [SCREEN RECORDING](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/SCREEN_RECORDING.mp4)
-
-* [FEATURES DESCRIPTION](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/FEATURES_DESCRIPTION.md)
-
-* [VALID CHECKOUT INFORMATION](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/valid_checkout_information.md)
-
-* [OVERVIEW](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/OVERVIEW.md)
-
-* [PRESENTATION](https://mayanktandon12.github.io/UrbanTechWebpage/)
-
-* [ITERATION 3 apk](https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/blob/master/Iteration3.apk)
