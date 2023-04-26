@@ -1,7 +1,5 @@
 # [UrbanTech](https://mayanktandon12.github.io/UrbanTechWebpage/)
 
-# URBAN TECH 
-
 ### Purpose of the Project:
 
 * Create user friendly online store that allows regular people to find and purchase phones, computers, wearables, and software products on-demand from anywhere.
