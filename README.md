@@ -1,4 +1,4 @@
-* [UrbanTech](https://mayanktandon12.github.io/UrbanTechWebpage/)
+# [UrbanTech](https://mayanktandon12.github.io/UrbanTechWebpage/)
 
 # URBAN TECH 
 
