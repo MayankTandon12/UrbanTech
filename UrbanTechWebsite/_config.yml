@@ -1,0 +1,122 @@
+#page title
+page_title                                : Urban Tech                                         # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+appstore_link                             :  https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech/-/raw/Iteration3/Iteration3.apk?inline=false                                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/urbantech.jpg # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Urban Tech                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Connecting you to the future of urban living with latest tech  # it will display as the sub-title
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+# Information About Yourself
+your_name                                 : <br/>   Mayank, <t/><t/><t/><t/>  Sukhmeet, <t/><t/><t/><t/>  Li, <t/><t/><t/><t/>  Xavier, <t/><t/><t/><t/>  Jayden
+your_link                                 : https://code.cs.umanitoba.ca/comp3350-winter2023/A01-G12-UrbanTech
+your_city                                 : Winnipeg
+email_address                             : techurban48@gmail.com
+github_username                           : MayankTandon12/UrbanTechWebpage
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+
+  - title                                 : Comfortable Shopping Experience
+    description                           : Displays a list of products, allows users to add them to a cart, change their amounts in the cart, see the specifications of said items, go through with a checkout, and interact with their user account.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Easy Navigation
+    description                           : Set of four buttons that appear in every screen of the app, allowing users to go to the home screen, view their account screen, view their cart, and view the categories of products.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Save their information in Secure Accounts
+    description                           : Login to multiple accounts, store their payment and address information, and do a “one-click checkout” while checking out using their already stored information. The account page then displays a user’s stored payment and address data, as well
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Review products and Purchase products
+    description                           : Users to store stuff specific to their currently logged-in account and is stored when the app is closed. The cart allows users to see their running total as well as adjust amounts or remove items from the cart entirely.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Make informed purchase decisions
+    description                           : Purchase items from their cart by inputting valid credit card information and a valid address in Winnipeg, MB, Canada. If logged in, users can also store their payment and address information using the save information button for later “one-click
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Search item needed by product or brand
+    description                           : Search for any product by name or brand name. This then displays the items from the search as a scrollable list just like the main screen.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : View products by categories
+    description                           : Scrollable grid view of categories that when clicked on display the list of items within that category. When inside that category, any searches are done only within that category.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Compare two products
+    description                           : Compare two products side by side and displays which product has a lower price by how much, which items have higher stock by how much, and which item has a lower price after discount is considered.
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : View recommended products
+    description                           : Shows users a list of products below the current product’s image and specifications that are usually serving the same purpose as the currently selected item or are bought with this item frequently.
+    fontawesome_icon_name                 : mobile
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/appImage.jpg # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.9
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onHomeButtonClick"
+            android:src="@drawable/home_button"
+            android:backgroundTint="@color/teal_200"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/accountButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onAccountButtonClick"
+            android:src="@drawable/account"
+            android:backgroundTint="@color/teal_200"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/cartButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCartButtonClick"
+            android:src="@drawable/cart_button"
+            android:backgroundTint="@color/teal_200"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="16dp"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/categoryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCategoryButtonClick"
+            android:src="@drawable/categories"
+            android:backgroundTint="@color/teal_200"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
